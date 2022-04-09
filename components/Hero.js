@@ -17,7 +17,7 @@ const Hero = () => {
   const [maxMintAmount, setMaxMintAmount] = useState(0);
   const [totalSupply, setTotalSupply] = useState(0);
   const [nftPrice, setNftPrice] = useState("0.01");
-  const [isSaleActive, setIsSaleActive] = useState(false);
+  const [isSaleActive, setIsSaleActive] = useState(true);
 
   useEffect(() => {
     const prepare = async () => {
